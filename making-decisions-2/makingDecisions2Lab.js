@@ -89,7 +89,7 @@ if(score > 90){
 ////////// PROBLEM 6 //////////
 
 // Do not edit the code below.
-var myFavoriteNumbers = [4,8,12,16,20,24,4];
+var myFavoriteNumbers = [4,8,12,16,20,24];
 // Do not edit the code above.
 
 /*
@@ -114,7 +114,7 @@ if(myFavoriteNumbers.length < 7){
 }else{
   someNum = myFavoriteNumbers[6];
 }
-// console.log(someNum)
+console.log(someNum)
 // this will console the previous variable myFav above
 
 ////////// PROBLEM 8 //////////
@@ -218,16 +218,16 @@ let numb = 0;
 // let mountain = numb % 5;
 
 // while(numb <= 100){}
-  for(let i = 0; i <= 100; i++){
-    // i % 15 === 0 also works 
-    if(i % 3 === 0 && i % 5 === 0){
-      console.log("devmountain")
-    }else if(i % 3 === 0){
-      console.log("dev")
-    }else if(i % 5 === 0){
-      console.log("mountian")
-    }else{
-      console.log(i)
-    }
-    }
+  // for(let i = 0; i <= 100; i++){
+  //   // i % 15 === 0 also works 
+  //   if(i % 3 === 0 && i % 5 === 0){
+  //     console.log("devmountain")
+  //   }else if(i % 3 === 0){
+  //     console.log("dev")
+  //   }else if(i % 5 === 0){
+  //     console.log("mountian")
+  //   }else{
+  //     console.log(i)
+  //   }
+  //   }
   
